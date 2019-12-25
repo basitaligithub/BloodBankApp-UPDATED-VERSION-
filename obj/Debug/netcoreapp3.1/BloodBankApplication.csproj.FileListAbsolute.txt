@@ -108,7 +108,6 @@ C:\Users\basit\Desktop\BloodBankApplication\bin\Debug\netcoreapp3.1\runtimes\win
 C:\Users\basit\Desktop\BloodBankApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\basit\Desktop\BloodBankApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\basit\Desktop\BloodBankApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.csprojAssemblyReference.cache
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\staticwebassets\BloodBankApplication.StaticWebAssets.Manifest.cache
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\staticwebassets\BloodBankApplication.StaticWebAssets.xml
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.MvcApplicationPartsAssemblyInfo.cs
@@ -173,3 +172,5 @@ C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApp
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.csproj.CopyComplete
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.dll
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.pdb
+C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.csprojAssemblyReference.cache
+C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Displaydata.cshtml.g.cs
