@@ -172,5 +172,7 @@ C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApp
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.csproj.CopyComplete
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.dll
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.pdb
-C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.csprojAssemblyReference.cache
 C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Displaydata.cshtml.g.cs
+C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Display.cshtml.g.cs
+C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Display.cshtml.g.cs
+C:\Users\basit\Desktop\BloodBankApplication\obj\Debug\netcoreapp3.1\BloodBankApplication.csprojAssemblyReference.cache

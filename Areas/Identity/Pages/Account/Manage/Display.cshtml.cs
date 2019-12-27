@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace BloodBankApplication.Areas.Identity.Pages.Account.Manage
 {
-    public class DisplayDataModel : PageModel
+    public class DisplayModel : PageModel
     {
         public void OnGet()
         {

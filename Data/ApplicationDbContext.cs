@@ -12,5 +12,8 @@ namespace BloodBankApplication.Data
             : base(options)
         {
         }
+
+        public DbSet<Donor> Donors { get; set; }
+
     }
 }
