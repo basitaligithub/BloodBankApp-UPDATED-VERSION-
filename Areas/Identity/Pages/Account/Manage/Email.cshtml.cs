@@ -44,10 +44,58 @@ namespace BloodBankApplication.Areas.Identity.Pages.Account.Manage
 
         public class InputModel
         {
+            //[Required]
+            //[EmailAddress]
+            //[Display(Name = "New email")]
+            //public string NewEmail { get; set; }
+
+            [Required]
+            [Display(Name = "Full Name")]
+            public string Name { get; set; }
+
             [Required]
             [EmailAddress]
-            [Display(Name = "New email")]
+            [Display(Name = "Email")]
             public string NewEmail { get; set; }
+
+            [Required]
+            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [DataType(DataType.Password)]
+            [Display(Name = "Password")]
+            public string Password { get; set; }
+
+            [Required]
+            [DataType(DataType.Password)]
+            [Display(Name = "Confirm password")]
+            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            public string ConfirmPassword { get; set; }
+
+
+            [Required]
+            [Display(Name = "Age")]
+            public int Age { get; set; }
+
+            
+
+            [Required]
+            [Display(Name = "Blood Group")]
+            public string BloodGroup { get; set; }
+
+            [Required]
+            [Display(Name = "Street Address")]
+            public string StreetAddress { get; set; }
+
+            [Required]
+            [Display(Name = "City")]
+            public string City { get; set; }
+
+            [Required]
+            [Display(Name = "Available")]
+            public string Availability { get; set; }
+
+            [Required]
+            [Display(Name = "Diseases")]
+            public string Diseases { get; set; }
         }
 
         private async Task LoadAsync(Donor user)
@@ -55,9 +103,11 @@ namespace BloodBankApplication.Areas.Identity.Pages.Account.Manage
             var email = await _userManager.GetEmailAsync(user);
             Email = email;
 
+
             Input = new InputModel
             {
                 NewEmail = email,
+                
             };
 
             IsEmailConfirmed = await _userManager.IsEmailConfirmedAsync(user);
