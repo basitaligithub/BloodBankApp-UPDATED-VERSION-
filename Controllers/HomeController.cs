@@ -48,6 +48,21 @@ namespace BloodBankApplication.Controllers
         }
 
 
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var donor = await _context.Donors.FindAsync(id);
+            if (donor == null)
+            {
+                return NotFound();
+            }
+            return null;
+        }
+
         public IActionResult Privacy()
         {
             return View();

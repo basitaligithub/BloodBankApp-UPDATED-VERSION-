@@ -104,6 +104,7 @@ namespace BloodBankApplication.Areas.Identity.Pages.Account.Manage
             Email = email;
 
 
+
             Input = new InputModel
             {
                 NewEmail = email,
