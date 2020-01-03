@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using BloodBankApplication.Models;
 using BloodBankApplication.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BloodBankApplication.Controllers
 {
@@ -28,7 +29,7 @@ namespace BloodBankApplication.Controllers
             return View();
         }
 
-        
+        [Authorize]
         public async Task<IActionResult> Display(string searchString, string searchstring2)
         {
             ViewData["CurrentFilter"] = searchString;
